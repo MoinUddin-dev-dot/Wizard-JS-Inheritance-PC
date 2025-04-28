@@ -1,12 +1,33 @@
-# React + Vite
+# Dark Wizard - React App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple React app showcasing a **Dark Wizard** class, inheriting from a base **Wizard** class. It demonstrates object-oriented programming (OOP) principles and renders results using React state.
 
-Currently, two official plugins are available:
+## Features
+- **Spell Casting**: Click on a button to trigger two types of spells: Regular Spell and Arrow Spell.
+- **Dynamic Result Display**: The result of the spell cast is displayed below the buttons in a paragraph.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Tech Stack
+- **React**: JavaScript library for building user interfaces.
+- **Tailwind CSS**: Utility-first CSS framework used for styling.
+- **JavaScript ES6+**: Modern JavaScript features including classes, methods, and arrow functions.
 
-## Expanding the ESLint configuration
+## Getting Started
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Follow these steps to get your development environment set up:
+
+## Demo
+
+You can see the live demo of this app here:  
+[Dark Wizard App Live Demo](https://wizard-js-inheritance-pc.vercel.app/)
+
+
+### Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/MoinUddin-dev-dot/Wizard-JS-Inheritance-PC.git
+   cd folder-nane
+   npm i
+   npm run dev
+   ```
